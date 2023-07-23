@@ -133,8 +133,8 @@
   }
 }
 #hamburger-nav{
-  background-color: rgb(2, 217, 255);
+  background: rgb(0, 252, 172);
 }
 .menu-links{
-  background-color: rgb(2, 217, 255);
+  background: rgba(255,255,255,0.2);
 }

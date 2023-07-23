@@ -101,7 +101,7 @@ a:hover {
   width: fit-content;
   max-height: 0;
   overflow: hidden;
-  transition: all 0.3 ease-in-out;
+  transition: all 1400ms ease-in-out;
 }
 
 .menu-links a {
@@ -333,6 +333,10 @@ section {
   flex-direction: column;
 }
 
+.details-container{
+  background: rgb(0, 252, 172);
+}
+
 .article-container {
   display: flex;
   text-align: initial;
@@ -361,7 +365,12 @@ article .icon {
 
 .color-container {
   border-color: rgb(163, 163, 163);
-  background: rgb(250, 250, 250);
+  background: rgb(0, 252, 172);
+  transition: all 0.3s ease-in-out;
+}
+
+.color-container:hover {
+  transform: scale(1.1);
 }
 
 .project-img {
@@ -376,9 +385,9 @@ article .icon {
 }
 
 .project-btn {
-  color: black;
+  color: white;
   border-color: rgb(163, 163, 163);
-  background: white;
+  background:  rgb(53, 53, 53);
 }
 
 /* CONTACT */
@@ -500,11 +509,11 @@ footer p {
 }
 
 #desktop-nav{
-  background-color: rgb(2, 217, 255);
+  background: rgb(0, 252, 172);
 }
 
 body{
-  background-color: rgb(2, 251, 209);
+  background-color: rgb(177, 202, 206);
 }
 
 #button{
