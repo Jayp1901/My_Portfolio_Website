@@ -52,10 +52,11 @@ a {
 }
 
 a:hover {
-  color: grey;
+  /* color: grey; */
+  color: rgb(174, 0, 255);
   text-decoration: underline;
   text-underline-offset: 1rem;
-  text-decoration-color: rgb(181, 181, 181);
+  text-decoration-color: rgb(174, 0, 255);
 }
 
 .logo {
@@ -64,6 +65,7 @@ a:hover {
 
 .logo:hover {
   cursor: default;
+  color: rgb(174, 0, 255);
 }
 
 /* HAMBURGER MENU */
@@ -93,6 +95,10 @@ a:hover {
   transition: all 0.3 ease-in-out;
 }
 
+.hamburger-icon span:hover {
+  background-color: rgb(174, 0, 255);
+}
+
 .menu-links {
   position: absolute;
   top: 100%;
@@ -101,7 +107,7 @@ a:hover {
   width: fit-content;
   max-height: 0;
   overflow: hidden;
-  transition: all 1400ms ease-in-out;
+  transition: all 1500ms ease-in-out;
 }
 
 .menu-links a {
@@ -111,7 +117,15 @@ a:hover {
   font-size: 1.5rem;
   color: black;
   text-decoration: none;
+  text-decoration-color: white;
   transition: all 0.3 ease-in-out;
+}
+
+.menu-links a:hover {
+  color: rgb(174, 0, 255);
+  text-decoration: underline;
+  text-underline-offset: 1rem;
+  text-decoration-color: rgb(174, 0, 255);
 }
 
 .menu-links li {
@@ -211,6 +225,11 @@ section {
 .icon {
   cursor: pointer;
   height: 2rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.icon:hover {
+  transform: scale(1.2);
 }
 
 /* BUTTONS */
@@ -231,7 +250,8 @@ section {
 
 .btn-color-1,
 .btn-color-2 {
-  border: rgb(53, 53, 53) 0.1rem solid;
+  /* border: rgb(53, 53, 53) 0.1rem solid; */
+  border: white 0.1rem solid;
 }
 
 .btn-color-1:hover,
@@ -301,6 +321,11 @@ section {
   border: rgb(53, 53, 53) 0.1rem solid;
   border-color: rgb(163, 163, 163);
   text-align: center;
+  transition: all 0.3s ease-in-out;
+}
+
+.details-container:hover {
+  transform: scale(1.1);
 }
 
 .section-container {
@@ -333,8 +358,13 @@ section {
   flex-direction: column;
 }
 
-.details-container{
+.details-container {
   background: rgb(0, 252, 172);
+  transition: all 0.3s ease-in-out;
+}
+
+.details-container:hover {
+  transform: scale(1.1);
 }
 
 .article-container {
@@ -386,8 +416,8 @@ article .icon {
 
 .project-btn {
   color: white;
-  border-color: rgb(163, 163, 163);
-  background:  rgb(53, 53, 53);
+  border-color: white 0.1rem solid;
+  background: rgb(53, 53, 53);
 }
 
 /* CONTACT */
@@ -508,19 +538,17 @@ footer p {
   margin-top: -200px;
 }
 
-#desktop-nav{
-  background: rgb(0, 252, 172);
-}
-
-body{
+body {
   background-color: rgb(177, 202, 206);
 }
 
-#button{
+#button {
   background: rgb(53, 53, 53);
   color: white;
+  border: white 0.1rem solid;
 }
 
-#button:hover{
+#button:hover {
   background: rgb(174, 0, 255);
+  border: white 0.1rem solid;
 }

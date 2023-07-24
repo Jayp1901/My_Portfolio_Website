@@ -132,9 +132,7 @@
     margin-top: 100px;
   }
 }
-#hamburger-nav{
-  background: rgb(0, 252, 172);
-}
-.menu-links{
-  background: rgba(255,255,255,0.2);
+
+.menu-links {
+  background: rgba(255, 255, 255, 0.2);
 }

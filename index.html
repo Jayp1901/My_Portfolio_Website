@@ -5,40 +5,44 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>My Portfolio</title>
+  <title>Welcome to my Portfolio</title>
   <link rel="stylesheet" href="style.css" />
   <link rel="stylesheet" href="mediaqueries.css" />
   <link rel="icon" href="./assets/logo.jpg" />
 </head>
 
 <body>
-  <nav id="desktop-nav">
-    <div class="logo">My Personal Portfolio</div>
-    <div>
-      <ul class="nav-links">
-        <li><a href="#about">About</a></li>
-        <li><a href="#experience">Experience</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </div>
-  </nav>
-  <nav id="hamburger-nav">
-    <div class="logo">My Personal Portfolio</div>
-    <div class="hamburger-menu">
-      <div class="hamburger-icon" onclick="toggleMenu()">
-        <span></span>
-        <span></span>
-        <span></span>
+  <header>
+    <nav id="desktop-nav">
+      <div class="logo">Jay.dev</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
       </div>
-      <div class="menu-links">
-        <li><a href="#about" onclick="toggleMenu()">About</a></li>
-        <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
-        <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
-        <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+    </nav>
+  </header>
+  <header>
+    <nav id="hamburger-nav">
+      <div class="logo">Jay.dev</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
       </div>
-    </div>
-  </nav>
+    </nav>
+  </header>
   <section id="profile">
     <div class="section__pic-container">
       <img src="./assets/IMG_3177-modified.png" alt="Profile picture" class="profile-pic" />
@@ -93,9 +97,13 @@
         </div>
         <div class="text-container">
           <p>
-            I am Jay Patel a final year undergradute student at Sardar Vallabhbhai Patel Institute of Technology.I
-            am a full-stack web developer. I am exploring various technologies in Web Development. Along with it I am
-            Android Developer and Cyber Security enthusiast.
+            I am Jay Patel a final year undergradute student at Sardar Vallabhbhai Patel Institute of Technology, Vasad.
+            I
+            am a full-stack web developer. I am exploring various technologies in Web Development. And learning new
+            technologies on a required basis. Currently I am working as a Web Developer at my own projects and sometimes
+            on freelance projects just to learn new things about client requirements. Along with it I am Android
+            Developer
+            and Cyber Security enthusiast.
           </p>
         </div>
       </div>
@@ -295,12 +303,13 @@
           </ul>
         </div>
       </nav>
-      <p class="copyright">Copyright &#169; 2023 Jay Patel. All Rights Reserved.</p>
+      <p class="copyright">Copyright &#169; 2023 by Jay Patel. All Rights Reserved.</p>
     </footer>
   </section>
 
 
   <script src="script.js"></script>
+  <script src="https://unpkg.com/cursor-effects@latest/dist/browser.js"></script>
 </body>
 
 </html>
