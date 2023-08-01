@@ -118,7 +118,7 @@ ul li:hover {
 }
 
 .hamburger-icon span:hover {
-  background-color: linear-gradient(90deg, rgb(50, 50, 245)35%, rgb(225, 0, 221)100%);
+  background-color: rgb(174, 0, 255);
 }
 
 .menu-links {
@@ -148,7 +148,7 @@ ul li:hover {
   text-decoration: underline;
   text-underline-offset: 1rem;
   text-decoration-color: rgb(174, 0, 255); */
-    filter: blur(0);
+  filter: blur(0);
   cursor: pointer;
   letter-spacing: 1px;
   background: linear-gradient(90deg, rgb(50, 50, 245)35%, rgb(225, 0, 221)100%);
