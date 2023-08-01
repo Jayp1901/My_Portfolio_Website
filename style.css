@@ -86,8 +86,6 @@ ul li:hover {
   background: linear-gradient(90deg, rgb(50, 50, 245)35%, rgb(225, 0, 221)100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  text-decoration: underline;
-  text-underline-offset: 1rem;
 }
 
 /* HAMBURGER MENU */
